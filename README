@@ -1,0 +1,26 @@
+External packages needed:
+* CVXPY is required for all scripts
+* Install Spearmint https://github.com/JasperSnoek/spearmint
+* Biopython is required to run the colitis data analysis
+
+Create folders:
+* In this directory, create
+  * spearmint_descent directory
+  * results directory
+  * For each example, it will need its own results folder:
+      * e.g. results/matrix_completion_groups/tmp
+
+Section 3 results were generated as follows:
+* Elastic Net:
+    python elasticnet_eval.py
+* Sparse group lasso:
+    python sgl_eval.py
+* Sparse Additive models:
+    python sparse_add_models_eval.py
+
+Section 4 results were generated as follows:
+    python realdata_eval.py
+
+By default, the code solves the joint optimization problem via gradient descent.
+The python commands take in different commands
+Specify different solvers
