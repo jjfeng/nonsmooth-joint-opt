@@ -1,6 +1,7 @@
 import pickle
 import numpy as np
 
+# Download the geneset in Molecular Signatures Database
 GENESET_FILENAME = "realdata/c1.all.v5.0.entrez.gmt"
 
 def read_geneset_file():

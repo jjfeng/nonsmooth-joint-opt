@@ -19,6 +19,7 @@ DISEASE_LABEL = 1
 TRAIN_SIZE = 40
 VALIDATE_SIZE = 10
 KFOLDS = 5
+# Download dataset GDS1615 from the Gene Expression Omnibus (GEO) repository
 GENE_EXPR_FILENAME = "realdata/GDS1615_full.soft"
 
 class Shuffled_Gene_Data:
