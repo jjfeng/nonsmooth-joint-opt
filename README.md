@@ -1,3 +1,5 @@
+Feng, Jean, and Noah Simon. 2018. “Gradient-Based Regularization Parameter Selection for Problems With Nonsmooth Penalty Functions.” Journal of Computational and Graphical Statistics: A Joint Publication of American Statistical Association, Institute of Mathematical Statistics, Interface Foundation of North America 27 (2): 426–35. https://doi.org/10.1080/10618600.2017.1390470.
+
 External packages needed:
 * CVXPY is required for all scripts
 * Install Spearmint https://github.com/JasperSnoek/spearmint
